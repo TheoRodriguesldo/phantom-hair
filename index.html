@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--
+  LANDING PAGE - PHANTOM HAIR (Tinta Invisível para Pelos)
+  PROSEL 26.2 - NPCP CIMATEC JR
+  Estrutura: index.html + css/style.css + js/script.js + assets/images/
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHANTOM HAIR | Pelos Invisíveis</title>
+  <meta name="description" content="Phantom Hair: a tinta temporária que disfarça os pelos e cria o visual de pele depilada em minutos. Sai no banho com água e sabonete.">
+  <link rel="icon" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..900&family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Ícones (Font Awesome via CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER / NAVBAR (fixa no topo) -->
+  <header class="header" id="topo">
+    <nav class="navbar" aria-label="Navegação principal">
+      <a href="#inicio" class="navbar__logo">
+        <img src="assets/images/logo.png" alt="Logo Phantom Hair" class="navbar__logo-icon">
+        <span>PHANTOM HAIR</span>
+      </a>
+
+      <button type="button" class="navbar__toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navbarMenu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+
+      <ul class="navbar__menu" id="navbarMenu">
+        <li><a href="#inicio" class="navbar__link">Início</a></li>
+        <li><a href="#como-funciona" class="navbar__link">Como funciona</a></li>
+        <li><a href="#beneficios" class="navbar__link">Benefícios</a></li>
+        <li><a href="#depoimentos" class="navbar__link">Depoimentos</a></li>
+      </ul>
+
+      <a href="#oferta" class="btn btn--primary navbar__cta">Comprar agora</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- SEÇÃO 1 - HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__container">
+        <div class="hero__content">
+          <span class="badge">Novidade exclusiva no Brasil</span>
+          <h1 class="hero__title">Descubra a magia dos <span>pelos invisíveis.</span></h1>
+          <p class="hero__text">
+            A primeira fórmula que cria o visual perfeito de pele depilada em minutos.
+            Disfarça os pelos por completo e sai no banho com água e sabonete.
+          </p>
+          <div class="hero__actions">
+            <a href="#oferta" class="btn btn--primary btn--large">Experimente agora <i class="fa-solid fa-arrow-right"></i></a>
+            <p class="hero__trust">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>Compra segura e dermatologicamente testado</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="hero__images">
+          <figure class="compare-card">
+            <span class="compare-card__tag">Antes</span>
+            <img src="assets/images/antes.jpg" alt="Homem com barba e pelos visíveis, antes de usar o produto" class="compare-card__img">
+            <figcaption class="compare-card__caption">Pelos visíveis</figcaption>
+          </figure>
+          <span class="selo-natural" aria-hidden="true"><small>Efeito</small>NATURAL</span>
+          <figure class="compare-card compare-card--depois">
+            <span class="compare-card__tag compare-card__tag--depois">Depois</span>
+            <img src="assets/images/depois.jpg" alt="Homem com efeito de pele lisa, depois de usar o produto" class="compare-card__img">
+            <figcaption class="compare-card__caption">Efeito imediato</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2 - COMO FUNCIONA -->
+    <section class="section como-funciona" id="como-funciona">
+      <div class="section__header">
+        <p class="section__eyebrow">Simples, rápido e reversível</p>
+        <h2 class="section__title">Como funciona em 3 passos</h2>
+        <p class="section__subtitle">Sem dor, sem lâminas e sem complicações. Veja como é fácil obter o visual que você quer.</p>
+      </div>
+
+      <div class="como-funciona__grid">
+        <div class="steps">
+          <article class="step-card">
+            <h3 class="step-card__title"><span class="step-card__number">1</span>Aplicar</h3>
+            <p class="step-card__text">Espalhe a fórmula uniformemente sobre os pelos da área desejada com a espátula.</p>
+          </article>
+          <article class="step-card">
+            <h3 class="step-card__title"><span class="step-card__number step-card__number--azul">2</span>Sentir o efeito</h3>
+            <p class="step-card__text">Em poucos minutos, a fórmula se firma e deixa os pelos temporariamente invisíveis.</p>
+          </article>
+          <article class="step-card">
+            <h3 class="step-card__title"><span class="step-card__number">3</span>Lavar e voltar</h3>
+            <p class="step-card__text">Para reverter, basta tomar um banho normal. O efeito sai por completo.</p>
+          </article>
+        </div>
+
+        <figure class="media-card">
+          <img src="assets/images/durante.jpg" alt="Homem aplicando a tinta Phantom Hair com a espátula, com o gel turquesa espalhado no cabelo e na barba" class="media-card__img">
+          <figcaption class="media-card__caption"><strong>Aplicação guiada</strong> Textura fácil de espalhar</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3 - BENEFÍCIOS -->
+    <section class="section beneficios" id="beneficios">
+      <div class="beneficios__grid">
+        <figure class="media-card media-card--kit">
+          <img src="assets/images/produto-kit.jpg" alt="Caixa, pote e espátula do kit Phantom Hair sobre uma bancada" class="media-card__img">
+          <figcaption class="media-chip"><i class="fa-solid fa-wand-magic-sparkles"></i> <span><strong>Efeito imediato</strong> e acabamento natural</span></figcaption>
+        </figure>
+
+        <div class="beneficios__content">
+          <p class="section__eyebrow">Tecnologia que cuida</p>
+          <h2 class="section__title">Por que escolher a Phantom Hair?</h2>
+          <p class="section__subtitle">Mais praticidade para a sua rotina e liberdade para decidir como você quer se ver, sem métodos agressivos.</p>
+
+          <ul class="beneficios__lista">
+            <li>
+              <i class="fa-solid fa-wand-magic-sparkles beneficios__icone"></i>
+              <div><h3>Resultado natural</h3><p>Pigmentos que acompanham o tom da pele para disfarçar os pelos sem aparência artificial.</p></div>
+            </li>
+            <li>
+              <i class="fa-solid fa-droplet beneficios__icone"></i>
+              <div><h3>Sai no banho</h3><p>A fórmula é removida com água e sabonete, sem deixar resíduos na pele.</p></div>
+            </li>
+            <li>
+              <i class="fa-solid fa-shield-halved beneficios__icone"></i>
+              <div><h3>Aplicação confortável</h3><p>Uma alternativa prática para quem quer evitar lâminas, dor e complicação.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 4 - OFERTA -->
+    <section class="section oferta" id="oferta">
+      <div class="section__header">
+        <p class="section__eyebrow">Oferta de lançamento</p>
+        <h2 class="section__title">Garanta seu kit Phantom Hair</h2>
+        <p class="section__subtitle">Experimente sem riscos e receba tudo o que precisa para começar.</p>
+      </div>
+
+      <div class="oferta-card">
+        <img src="assets/images/produto-kit.jpg" alt="Kit Phantom Hair: caixa, pote da tinta invisível e espátula aplicadora" class="oferta-card__foto">
+
+        <div class="oferta-card__info">
+          <span class="badge badge--claro">Oferta por tempo limitado</span>
+          <h3 class="oferta-card__titulo">Kit Phantom Hair</h3>
+          <p class="oferta-card__desc">Fórmula para pelos invisíveis, acompanhada de espátula aplicadora para uma aplicação uniforme.</p>
+          <ul class="oferta-card__lista">
+            <li><i class="fa-solid fa-check"></i> Frete grátis para todo o Brasil</li>
+            <li><i class="fa-solid fa-check"></i> Garantia de satisfação de 30 dias</li>
+            <li><i class="fa-solid fa-check"></i> Envio rápido e seguro</li>
+          </ul>
+        </div>
+
+        <div class="oferta-card__preco">
+          <span class="preco-de">De R$ 149,90 por</span>
+          <span class="preco-por"><sup>R$</sup>99<sub>,90</sub> <small>à vista</small></span>
+          <span class="preco-parcelado">ou em até 3x de R$ 33,30 sem juros</span>
+          <button type="button" class="btn btn--primary btn--full" id="btnComprar">Comprar agora <i class="fa-solid fa-arrow-right"></i></button>
+          <p class="oferta-card__msg" id="compraMsg" role="status" hidden></p>
+          <p class="oferta-card__estoque"><span class="dot"></span> Estoque disponível para envio imediato</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 5 - DEPOIMENTOS -->
+    <section class="section depoimentos" id="depoimentos">
+      <div class="section__header">
+        <p class="section__eyebrow">Histórias reais</p>
+        <h2 class="section__title">Quem experimentou, aprovou</h2>
+        <p class="section__subtitle">Feedback de clientes que transformaram sua rotina com mais praticidade.</p>
+      </div>
+
+      <div class="depoimentos__lista">
+        <article class="depoimento-card">
+          <div class="depoimento-card__estrelas" role="img" aria-label="Avaliação 5 de 5 estrelas">★★★★★</div>
+          <p class="depoimento-card__texto">"Passei na cabeça toda e mandei foto no grupo da família. Minha tia ligou chorando. Tomei banho e liguei de volta com cabelo. Melhor trote da vida."</p>
+          <div class="depoimento-card__autor">
+            <div class="depoimento-card__avatar" aria-hidden="true">LS</div>
+            <div><strong>Lucas Silva</strong><span>Campinas - SP</span></div>
+          </div>
+        </article>
+
+        <article class="depoimento-card">
+          <div class="depoimento-card__estrelas" role="img" aria-label="Avaliação 5 de 5 estrelas">★★★★★</div>
+          <p class="depoimento-card__texto">"Procurei pelos na cena do crime e não achei nenhum. Com Phantom Hair, o suspeito tem álibi perfeito."</p>
+          <div class="depoimento-card__autor">
+            <div class="depoimento-card__avatar" aria-hidden="true">DR</div>
+            <div><strong>Detetive Rocha</strong><span>Belo Horizonte - MG</span></div>
+          </div>
+        </article>
+
+        <article class="depoimento-card">
+          <div class="depoimento-card__estrelas" role="img" aria-label="Avaliação 5 de 5 estrelas">★★★★★</div>
+          <p class="depoimento-card__texto">"Cinco estrelas. O desenvolvedor da página disse que não passa no processo seletivo se eu não escrevesse isso, mas é verdade."</p>
+          <div class="depoimento-card__autor">
+            <div class="depoimento-card__avatar" aria-hidden="true">CA</div>
+            <div><strong>Cliente anônimo</strong><span>Sob supervisão do desenvolvedor</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 6 - FAQ (acordeão nativo com details/summary) -->
+    <section class="section faq" id="faq">
+      <div class="section__header">
+        <p class="section__eyebrow">Tire suas dúvidas</p>
+        <h2 class="section__title">Dúvidas frequentes</h2>
+        <p class="section__subtitle">Tudo o que você precisa saber antes de experimentar.</p>
+      </div>
+
+      <div class="faq__lista">
+        <details class="faq-item" open>
+          <summary class="faq-item__pergunta">Quanto tempo dura o efeito na pele?</summary>
+          <p class="faq-item__resposta">O efeito dura até você lavar a área com água e sabonete ou shampoo corporal. Em condições normais, resiste bem ao suor leve e ao dia a dia.</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-item__pergunta">O produto é seguro para peles sensíveis?</summary>
+          <p class="faq-item__resposta">Nossa fórmula foi desenvolvida com agentes hipoalergênicos e calmantes como Aloe Vera. Recomendamos fazer um teste de toque em uma pequena área antes do uso completo.</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-item__pergunta">Como o produto faz os pelos "sumirem"?</summary>
+          <p class="faq-item__resposta">A fórmula se fixa temporariamente ao pelo, alterando sua aparência e deixando-o idêntico ao tom da sua pele.</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-item__pergunta">Funciona em todos os tons de pele e pelos?</summary>
+          <p class="faq-item__resposta">Nossa tecnologia se adapta ao subtom de pele ao ser espalhada. Funciona bem para pelos escuros, loiros ou ruivos.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final" aria-labelledby="cta-titulo">
+      <div class="cta-final__container">
+        <div>
+          <p class="cta-final__eyebrow">Sua escolha, do seu jeito</p>
+          <h2 class="cta-final__title" id="cta-titulo">Pronto para descobrir o efeito Phantom Hair?</h2>
+        </div>
+        <a href="#oferta" class="btn btn--branco">Quero experimentar <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__coluna footer__marca">
+        <a href="#inicio" class="footer__logo">
+          <img src="assets/images/logo.png" alt="Logo Phantom Hair" class="footer__logo-icon">
+          <span>PHANTOM HAIR</span>
+        </a>
+        <p>Tecnologia e cuidado para uma rotina mais simples, prática e confiante.</p>
+      </div>
+
+      <div class="footer__coluna">
+        <h4>Produto</h4>
+        <ul>
+          <li><a href="#como-funciona">Como usar</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#oferta">Oferta</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__coluna">
+        <h4>Atendimento</h4>
+        <ul>
+          <li>Seg. a sex., das 9h às 18h</li>
+          <li>Suporte após a compra</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 Phantom Hair. Todos os direitos reservados.</p>
+      <p>Projeto fictício desenvolvido para o PROSEL 26.2 – NPCP CIMATEC JR</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
