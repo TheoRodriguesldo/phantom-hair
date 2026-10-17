@@ -4,8 +4,8 @@ Projeto da etapa técnica do **Processo Seletivo 2026.2 – NPCP CIMATEC JR**.
 
 ## Candidato
 
-- **Nome completo:** [INSERIR NOME COMPLETO]
-- **Semestre atual:** [INSERIR SEMESTRE]
+- **Nome completo:** Théo Rodrigues Leite de Oliveira
+- **Semestre atual:** 2º Semestre
 
 ## Produto escolhido
 
@@ -31,19 +31,15 @@ Projeto da etapa técnica do **Processo Seletivo 2026.2 – NPCP CIMATEC JR**.
 
 ## Links
 
-- **Projeto hospedado:** [INSERIR LINK DO PROJETO HOSPEDADO]
-- **Protótipo no Figma:** [INSERIR LINK DO FIGMA]
+- **Projeto hospedado:** https://theorodriguesldo.github.io/phantom-hair/
+- **Protótipo no Figma:** https://www.figma.com/make/LTsg5g6J4EZfX3tMfxfua8/Landing-page-redesign?t=j7Ju2SiFLZeB50KQ-1
 
 ## Como executar localmente
 
 1. Clone o repositório:
-```bash
-   git clone [INSERIR URL DO REPOSITÓRIO]
-```
+   git clone https://theorodriguesldo.github.io/phantom-hair/
 2. Entre na pasta do projeto:
-```bash
-   cd [NOME-DA-PASTA]
-```
+   cd phantom-hair
 3. Abra o arquivo `index.html` no navegador (duplo clique) ou use a extensão **Live Server** do VS Code.
 
 Não há dependências para instalar. O projeto precisa de internet apenas para carregar os ícones (Font Awesome) e as fontes (Google Fonts).
