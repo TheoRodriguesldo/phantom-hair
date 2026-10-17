@@ -37,7 +37,7 @@ Projeto da etapa técnica do **Processo Seletivo 2026.2 – NPCP CIMATEC JR**.
 ## Como executar localmente
 
 1. Clone o repositório:
-   git clone https://theorodriguesldo.github.io/phantom-hair/
+   git clone https://github.com/theorodriguesldo/phantom-hair.git
 2. Entre na pasta do projeto:
    cd phantom-hair
 3. Abra o arquivo `index.html` no navegador (duplo clique) ou use a extensão **Live Server** do VS Code.
